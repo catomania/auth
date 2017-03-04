@@ -30,7 +30,7 @@ class App extends Component {
 	renderContent() {
 		switch (this.state.loggedIn) {
 			case true:
-          		return <Button />;
+          		return <Button>foo</Button>;
 			case false:
 				return <Header headerText="banner2" />;
 			default:
